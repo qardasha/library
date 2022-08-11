@@ -93,7 +93,7 @@ function checkCategories(info) {
 }
 
 function openFile(file) {
-    let url = window.location.toString().split("library")[0] + `/library/pdf-viewer.html#${file}`);
+    let url = window.location.toString().split("library")[0] + `/library/pdf-viewer.html#${file}`;
     window.open(url, "_blank");
 }
 
