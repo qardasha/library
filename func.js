@@ -214,7 +214,7 @@ function openFile(event) {
   let file = event.currentTarget.value;
   let url = window.location;
   if (url.toString().includes("index.html")) url = url.toString().replace("index.html", `file-viewer.html#${file}`);
-  else url = url.toString().concat(`file-viewer.html#${file}`);
+  else url = url.toString().concat(`pdf-viewer.html#${file}`);
   window.open(url, "_blank");
 }
 
